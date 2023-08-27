@@ -67,3 +67,42 @@ button{
     font-size: 18px;
     font-weight: normal;
 }
+
+.unbod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2637;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 100px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.explanations{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
